@@ -42,8 +42,8 @@ IPAddress server_addr(IP_DO_SERVIDOR_BANCO_DE_DADOS);
 //CONFIGURAÇÃO DA BANCO DE DADOS
 char user[] = "USUARIO_BD";              
 char password[] = "SENHA_USUARIO_BD";
-char INSERIR_TEMP[] = "INSERT INTO NOME_DA_TABELA (CAMPOS_DA_TABELA) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)";
-char BANCODEDADOS[] = "USE BANCO_DE_DADOS";
+char INSERIR_TEMP[] = "INSERT INTO temp_dht22 (temp_prod,temp_inter,temp_link,temp_saida,umid_prod,umid_inter,umid_link,umid_saida) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)";
+char BANCODEDADOS[] = "USE arduino";
 
 //MONTA A COMANDO QUE VAI FAZER E INSERÇÃO NO BANCO DE DADOS
 char sentenca[180];
