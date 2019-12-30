@@ -1,0 +1,10 @@
+create table temp_dht22 (id int(11) AUTO_INCREMENT PRIMARY KEY,
+	temp_prod float,
+    temp_inter float,
+    temp_linK float,
+	umid_prod float,
+    umid_inter float,
+    umid_link float,
+    temp_saida float,
+    umid_saida float,
+	data timestamp default current_timestamp);
